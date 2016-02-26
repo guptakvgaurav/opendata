@@ -1,13 +1,32 @@
 {
   "name": "opendata",
-  "version": "0.0.1",
-  "description": "A library to get data from indian government's open data web services.",
-  "tags": ["opendata", "data.gov.in", "india"],
-  "author": "guptakvgaurav@gmail.com",
+  "version": "1.0.0",
+  "description": "A library for fetching opendata from data.gov.in",
   "main": "index.js",
-  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
   "dependencies": {
-    "request": "2.69.0",
-    "lodash": "4.5.1"
-  }
+	"request": "2.69.0",
+	"lodash": "4.5.1"    
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guptakvgaurav/opendata.git"
+  },
+  "keywords": [
+    "opendata",
+    "data.gov.in",
+    "india"
+  ],
+  "author": "Gaurav Gupta <guptakvgaurav@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guptakvgaurav/opendata/issues"
+  },
+  "homepage": "https://github.com/guptakvgaurav/opendata#readme"
 }
