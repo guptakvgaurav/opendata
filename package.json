@@ -1,0 +1,13 @@
+{
+  "name": "opendata",
+  "version": "0.0.1",
+  "description": "A library to get data from indian government's open data web services.",
+  "tags": ["opendata", "data.gov.in", "india"],
+  "author": "guptakvgaurav@gmail.com",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "request": "2.69.0",
+    "lodash": "4.5.1"
+  }
+}
